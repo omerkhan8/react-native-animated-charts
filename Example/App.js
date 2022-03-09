@@ -2,7 +2,7 @@
 import ViewPager from '@react-native-community/viewpager';
 import React from 'react';
 import {SafeAreaView} from 'react-native';
-import BasicExample from './src/BasicExample';
+// import BasicExample from './src/BasicExample';
 import Example from './src/GenericExample';
 //import {default as RainbowExample} from './src/RainbowExample/value-chart/ChartExpandedState';
 
@@ -13,7 +13,7 @@ const App = () => {
         <ViewPager initialPage={0} style={{flex: 1}}>
           <Example />
           {/*<RainbowExample />*/}
-          <BasicExample />
+          {/* <BasicExample /> */}
         </ViewPager>
       </SafeAreaView>
     </>
